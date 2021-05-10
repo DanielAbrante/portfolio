@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+img{
+    height: 85%;
+    width: 100%;
+    vertical-align: middle;
+}
+
+menu{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+header #header-container {
+    background-color: rgb(182, 62, 62);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+header #header-container nav {
+    margin-right: 20px;
+}
+
+header #header-container #language-item {
+    cursor: pointer;
+}
+
+header #header-container li {
+    display: inline-block;
+    font-weight: bold;
+    padding: 20px;
+    list-style: none;
+}
+
+header #header-container li a{
+    text-decoration: none;
+}
+
+header #header-container li:hover {
+    background-color: rgba(138, 154, 179, 0.555);
+}
+
+header #about-me {
+    height: 800px;
+    background-color: rgb(54, 49, 49);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header #about-me h1 {
+    font-size: 60px;
+}
+
+header #about-me p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: red;
+}
+
+main #works {
+    background-color: rgb(109, 52, 99);
+    padding-bottom: 50px;
+}
+
+main #works .projects:hover {
+    transform: scale(1.1);
+}
+
+main #works #header-title-works{
+    padding: 80px 0 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main #works #header-title-works h2{
+    font-size: 45px;
+}
+
+main #works #header-title-works hr{
+    margin-top: 8px;
+    background-color: white;
+    height: 2px;
+    width: 60%;
+}
+
+main #works #projects-container {
+    padding: 0 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 500px 500px;
+    gap: 40px;
+}
+
+main #works .projects .legend-container{
+    height: 15%;
+    background-color: rgb(117, 114, 114);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main #works .projects legend {
+    font-size: 20px;
+}
+
+footer #contacts {
+    background-color: rgb(59, 56, 56);
+    padding: 80px 0 20px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer #contacts h2 {
+    font-size: 40px;
+}
+
+footer #contacts li {
+    display: inline-block;
+    list-style: none;
+    margin: 40px 0 60px 0;
+}
+
+footer #contacts a {
+    text-decoration: none;
+}
+
+footer .contacts-media:hover {
+   border-bottom: 3px solid cornflowerblue;
+}
+
+
