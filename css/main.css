@@ -46,6 +46,10 @@ header #header-container li a{
     text-decoration: none;
 }
 
+header #header-container #refresh-language {
+    cursor: pointer;
+}
+
 header #header-container li:hover {
     background-color: rgba(138, 154, 179, 0.555);
 }
