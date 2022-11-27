@@ -1,4 +1,5 @@
 const images_dir = "/images";
+const DEFAULT_URL = "process.env.PUBLIC_URL";
 
 export const skills = [
   "typescript",
@@ -15,7 +16,8 @@ export const projects = [
   {
     title: "ToDo Web",
     description: "ToDo Web system to manage all your tasks with login feature",
-    url: "../todo-web.png",
+    url: DEFAULT_URL + "/todo-web.png",
+    // url: "../todo-web.png",
     link: "https://github.com/DanielAbrante/todo-web-p3",
   },
   {
