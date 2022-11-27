@@ -1,5 +1,9 @@
 const images_dir = "/images";
-const DEFAULT_URL = "process.env.PUBLIC_URL";
+const BASE_URL =
+  "https://github.com/DanielAbrante/assets-to-portfolio/blob/main";
+const QUERY = "?raw=true";
+
+//https://github.com/DanielAbrante/assets-to-portfolio/blob/main/pong.png?raw=true
 
 export const skills = [
   "typescript",
@@ -16,33 +20,32 @@ export const projects = [
   {
     title: "ToDo Web",
     description: "ToDo Web system to manage all your tasks with login feature",
-    url: DEFAULT_URL + "/todo-web.png",
-    // url: "../todo-web.png",
+    url: `${BASE_URL}/todo-web.png${QUERY}`,
     link: "https://github.com/DanielAbrante/todo-web-p3",
   },
   {
     title: "Games Linux",
     description:
       "Command line interface to download games in Linux with .AppImage extension",
-    url: "../gameslinux.gif",
+    url: `${BASE_URL}/gameslinux.gif${QUERY}`,
     link: "https://github.com/DanielAbrante/GamesLinux",
   },
   {
     title: "Pong",
     description: "Multiplayer game created from scratch using Java",
-    url: "../pong.png",
+    url: `${BASE_URL}/pong.png${QUERY}`,
     link: "https://github.com/DanielAbrante/game-pong",
   },
   {
     title: "Tribute Page",
     description: "Biography of Dr. Norman Borlaug",
-    url: "../tribute-page.gif",
+    url: `${BASE_URL}/tribute-page.gif${QUERY}`,
     link: "https://danielabrante.github.io/tribute-page/",
   },
   {
     title: "Survey Page",
     description: "Survey page to get some informations about the user",
-    url: "../survey-page.gif",
+    url: `${BASE_URL}/survey-page.gif${QUERY}`,
     link: "https://danielabrante.github.io/survey-page/",
   },
 ];
