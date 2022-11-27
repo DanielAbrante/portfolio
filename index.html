@@ -1,86 +1,13 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-</head>
-
-<body>
-
-    <header>
-        <menu>
-            <div id="header-container">
-                <div id="nav-container">
-                    <nav>
-                        <ul>
-                            <li><a href="#about-me">SOBRE</a></li>
-                            <li><a href="#works">PROJETOS</a></li>
-                            <li><a href="#contacts">CONTATO</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </menu>
-
-        <div id="about-me">
-            <h1>Daniel Martins</h1>
-            <p>Desenvolvedor Web</p>
-        </div>
-    </header>
-
-    <main>
-        <div id="works">
-            <div id="header-title-works">
-                <h2>Esses são alguns de meus projetos</h2>
-                <hr>
-            </div>
-        
-            <div id="projects-container">
-                <div class="projects">
-                    <a href="https://danielabrante.github.io/survey-page/" target="_blank"><img src="img/survey-page.png" alt="Survey Page"></a>
-                    <div class="legend-container">
-                        <legend>Survey Page</legend>
-                    </div>
-                </div>
-                <div class="projects">
-                    <a href="https://danielabrante.github.io/tribute-page/" target="_blank"><img src="img/tribute-page.png" alt="Tribute Page"></a>
-                    <div class="legend-container">
-                        <legend>Tribute Page</legend>
-                    </div>
-                </div>
-                <div class="projects">
-                    <a href="https://danielabrante.github.io/netflix-catalog/" target="_blank"><img src="img/netflix-clone.png" alt="Netflix Catalog"></a>
-                    <div class="legend-container">
-                        <legend>Netflix Catalog</legend>
-                    </div>
-                </div>
-                <div class="projects">
-                    <a href="https://danielabrante.github.io/instagram-login-page/" target="_blank"><img src="img/instagram-clone.png" alt="Instagram Login Page"></a>
-                    <div class="legend-container">
-                        <legend>Instagram Login Page</legend>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
-
-    <footer>
-        <div id="contacts">
-            <h2>Contato</h2>
-            <ul>
-                <img style="width: 30px; height: 30px;" src="img/github-icone.png" alt="">
-                <li style="margin-right: 20px;"><a class="contacts-media" href="https://github.com/DanielAbrante" target="_blank">GitHub</a></li>
-                <img style="width: 26px; height: 26px;" src="img/linkedin-icon.svg" alt="">
-                <li><a class="contacts-media" href="https://www.linkedin.com/in/daniel-martins-dattebayo/" target="_blank">Linkedin</a></li>
-            </ul>
-            <p>&copy; Criado por DanielAbrante</p>
-        </div>
-    </footer>
-
-    <script src="js/main.js"></script>
-</body>
-
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>

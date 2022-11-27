@@ -1,0 +1,56 @@
+@media screen and (max-width: 999px) {
+  .projects-set {
+    padding: 0px;
+  }
+
+  .project-container {
+    flex-grow: 1;
+  }
+}
+
+#projects {
+  background: var(--projects-bg);
+  padding-bottom: 48px;
+}
+
+#projects h2 {
+  text-align: center;
+  padding: 128px 0;
+  font-size: 64px;
+}
+
+.projects-set {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 48px;
+  padding: 0 2vw;
+}
+
+.project-container {
+  border: none;
+  border-radius: 24px;
+  background-color: rgba(73, 91, 106, 0.7);
+  width: 700px;
+
+  filter: grayscale(100);
+}
+
+.project-container:hover {
+  background-color: rgba(73, 91, 106, 1);
+  filter: none;
+  transform: scale(1.03);
+}
+
+.project-container > h3 {
+  font-size: 24px;
+  text-align: center;
+  padding: 16px 0;
+}
+
+.project-container > p {
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 16px;
+}
