@@ -57,6 +57,6 @@ export const contacts = [
   },
   {
     social_media: "linkedin",
-    url: "https://github.com/DanielAbrante",
+    url: "linkedin.com/in/daniel-abrante-0629a6258",
   },
 ];

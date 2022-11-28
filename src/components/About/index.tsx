@@ -5,7 +5,7 @@ export function About() {
     <div id="about">
       <section className="profile">
         <h1>Daniel Abrante</h1>
-        <h2>Desenvolvedor Full-Stack</h2>
+        <h2>Full-Stack Developer</h2>
       </section>
       <p>
         I work with web and system development, task automation, <br/> and for hobby, 
