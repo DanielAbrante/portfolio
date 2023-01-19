@@ -9,9 +9,16 @@ export function Contacts() {
       <div className="vertical-pipe"></div>
       <section className="social-medias">
         {contacts.map((contact) => (
-          <a href={contact.url} target="_blank">
-            <Icon icon={`mdi:${contact.social_media}`} width="64" height="64" />
-          </a>
+          <div>
+            <a href={contact.url} target="_blank">
+              <Icon
+                icon={`mdi:${contact.social_media}`}
+                width="64"
+                height="64"
+              />
+            </a>
+            <p>{contact.url}</p>
+          </div>
         ))}
       </section>
     </div>
