@@ -1,19 +1,19 @@
-import { Header } from "./components/Header";
+import { AppContainer } from "./styles";
+
+import { Home } from "./components/Home";
+import { Technology } from "./components/Technology";
+import { Work } from "./components/Work";
 import { About } from "./components/About";
-import { Skills } from "./components/Skills";
-import { Projects } from "./components/Projects";
-import { Contacts } from "./components/Contacts";
+import { Footer } from "./components/Footer";
 
 export function App() {
   return (
-    <>
-      <Header />
-      <main>
-        <About />
-        <Skills />
-        <Projects />
-        <Contacts />
-      </main>
-    </>
+    <AppContainer>
+      <Home />
+      <Technology />
+      <Work />
+      <About />
+      <Footer />
+    </AppContainer>
   );
 }

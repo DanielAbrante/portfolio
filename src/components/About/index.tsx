@@ -1,16 +1,31 @@
-import "./style.css";
+import { AboutContainer, AboutDetails, AboutGallery } from "./styles";
+
+import GitHubProfile from "../../assets/github-profile.png";
+import WeblateProfile from "../../assets/weblate-profile.png";
+import LinkedinProfile from "../../assets/linkedin-profile.jpeg";
 
 export function About() {
   return (
-    <div id="about">
-      <section className="profile">
-        <h1>Daniel Abrante</h1>
-        <h2>Full-Stack Developer</h2>
-      </section>
-      <p>
-        I work with web and system development, task automation, <br/> and for hobby, 
-        I make bots to Telegram and <br/> build games being a indie gamedev
-      </p>
-    </div>
+    <AboutContainer>
+      <AboutDetails>
+        <h4 id="about">A BIT MORE</h4>
+        <p>
+          Sometimes I'm contributing with <strong>open source</strong> projects
+          with <strong>code</strong> and <strong>translations</strong>, checkout
+          my <strong>GitHub</strong> profile below to see details about this and
+          another projects!
+        </p>
+      </AboutDetails>
+
+      <AboutGallery>
+        <div>
+          <img src={LinkedinProfile} alt="Linkedin profile" />
+        </div>
+        <div>
+          <img src={GitHubProfile} alt="GitHub profile" />
+          <img src={WeblateProfile} alt="Weblate profile" />
+        </div>
+      </AboutGallery>
+    </AboutContainer>
   );
 }
