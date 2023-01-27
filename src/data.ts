@@ -1,4 +1,7 @@
-const BASE_URL_TO_IMAGES = "../src/assets";
+import RocketNotes from "./assets/rocketnotes.png";
+import Feed from "./assets/feed.png";
+import TributePage from "./assets/tribute-page.png";
+import TodoApp from "./assets/todo-app.png";
 
 export interface ProjectProps {
   id: number;
@@ -13,28 +16,28 @@ export const projects: ProjectProps[] = [
     id: 0,
     title: "Rocketnotes",
     description: "A app to manage your notes",
-    img: `${BASE_URL_TO_IMAGES}/rocketnotes.png`,
+    img: RocketNotes,
     link: "https://rocket-notes-one.vercel.app/",
   },
   {
     id: 1,
     title: "Feed",
     description: "Social media comment section",
-    img: `${BASE_URL_TO_IMAGES}/feed.png`,
+    img: Feed,
     link: "https://feed-snowy-ten.vercel.app/",
   },
   {
     id: 2,
     title: "Tribute Page",
     description: "Biography about Dr. Norman Borlaug ",
-    img: `${BASE_URL_TO_IMAGES}/tribute-page.png`,
+    img: TributePage,
     link: "https://danielabrante.github.io/tribute-page/",
   },
   {
     id: 3,
     title: "Todo App",
     description: "A todo app to manage tasks",
-    img: `${BASE_URL_TO_IMAGES}/todo-app.png`,
+    img: TodoApp,
     link: "https://github.com/DanielAbrante/todo-web-p3",
   },
 ];
