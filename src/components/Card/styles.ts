@@ -88,11 +88,6 @@ export const CardButton = styled.button`
   border: 1px solid ${(props) => props.theme["neutral-2"]};
   border-radius: 24px;
 
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5rem;
-  letter-spacing: 0.04em;
-
   transition: 0.5s padding;
 
   :hover {
@@ -103,5 +98,16 @@ export const CardButton = styled.button`
     );
     cursor: pointer;
     padding: 0.5rem 1.75rem;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.04em;
   }
 `;

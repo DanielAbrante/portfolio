@@ -12,7 +12,7 @@ export function Card({ flip = false, project }: CardProps) {
   return (
     <CardContainer flip={flip}>
       <div>
-        <img src={project.img} alt={project.title} />
+        <a target="_blank" href={project.link}><img src={project.img} alt={project.title} /></a>
       </div>
 
       <CardDetails>
@@ -20,7 +20,7 @@ export function Card({ flip = false, project }: CardProps) {
         <h3>{project.description}</h3>
 
         <CardButton>
-          VIEW WORK <CaretRight size={24} />
+          <a target="_blank" href={project.link}>VIEW WORK <CaretRight size={24} /></a>
         </CardButton>
       </CardDetails>
     </CardContainer>
