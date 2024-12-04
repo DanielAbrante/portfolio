@@ -10,8 +10,8 @@ export function App() {
   return (
     <AppContainer>
       <Home />
-      <Technology />
       <Work />
+      <Technology />
       <About />
       <Footer />
     </AppContainer>

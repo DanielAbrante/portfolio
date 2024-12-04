@@ -8,11 +8,11 @@ export function Home() {
         <nav>
           <ul>
             <li>
-              <a href="#tools">TOOLS</a>
+              <a href="#work">WORK</a>
               <span></span>
             </li>
             <li>
-              <a href="#work">WORK</a>
+              <a href="#tools">TOOLS</a>
               <span></span>
             </li>
             <li>

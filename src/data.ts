@@ -14,30 +14,30 @@ export interface ProjectProps {
 export const projects: ProjectProps[] = [
   {
     id: 0,
-    title: "Rocketnotes",
-    description: "A app to manage your notes",
-    img: RocketNotes,
-    link: "https://rocket-notes-one.vercel.app/",
-  },
-  {
-    id: 1,
-    title: "Feed",
-    description: "Social media comment section",
-    img: Feed,
-    link: "https://feed-snowy-ten.vercel.app/",
-  },
-  {
-    id: 2,
     title: "Tribute Page",
     description: "Biography about Dr. Norman Borlaug ",
     img: TributePage,
     link: "https://danielabrante.github.io/tribute-page/",
   },
   {
-    id: 3,
+    id: 1,
+    title: "Rocketnotes",
+    description: "A app to manage your notes",
+    img: RocketNotes,
+    link: "https://rocket-notes-one.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Todo App",
     description: "A todo app to manage tasks",
     img: TodoApp,
     link: "https://github.com/DanielAbrante/todo-web-p3",
+  },
+  {
+    id: 3,
+    title: "Feed",
+    description: "Social media comment section",
+    img: Feed,
+    link: "https://feed-snowy-ten.vercel.app/",
   },
 ];

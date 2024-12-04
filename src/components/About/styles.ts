@@ -9,6 +9,7 @@ export const AboutContainer = styled.section`
   display: flex;
   gap: 2.125;
 
+
   div {
     @media (max-width: 786px) {
       max-width: 100%;
@@ -48,6 +49,11 @@ export const AboutDetails = styled.div`
     font-weight: 300;
     line-height: 3rem;
   }
+
+  small {
+    font-style: italic;
+  }
+
 `;
 
 export const AboutGallery = styled.div`

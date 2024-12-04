@@ -19,7 +19,9 @@ export const CardContainer = styled.div<CardContainerProps>`
       width: 100%;
     }
 
+    border-radius: 16px;
     width: 50%;
+    overflow: hidden;
   }
 
   img {
@@ -27,16 +29,19 @@ export const CardContainer = styled.div<CardContainerProps>`
     height: 100%;
 
     object-fit: cover;
-    border-radius: 16px;
 
     cursor: pointer;
     filter: grayscale(1);
+    transition: transform 0.3s ease; /* Suaviza o zoom */
   }
 
   img:hover {
     box-shadow: 0px 0.5px 4px 1px ${(props) => props.theme["neutral-2"]};
 
     filter: grayscale(0);
+
+    transform: scale(1.02);
+    
   }
 `;
 
