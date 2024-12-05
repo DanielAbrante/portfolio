@@ -16,25 +16,39 @@ export const TechnologyContainer = styled.section`
     }
   }
 
-  div {
+  > div {
     @media (max-width: 768px) {
-      justify-content: center;
+      justify-content: space-around;
       flex-wrap: wrap;
     }
 
     display: flex;
-    gap: 5rem;
+    flex-wrap: wrap;
+    gap: 2rem;
 
     svg {
-      filter: grayscale(1);
-      cursor: pointer;
-
       min-width: 4rem;
       min-height: 4rem;
     }
+  }
+`;
 
-    svg:hover {
-      filter: grayscale(0);
-    }
+export const SkillContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
+  filter: grayscale(1);
+
+  :hover {
+    cursor: pointer;
+
+    filter: grayscale(0);
+    color: white;
+  }
+
+  h3 {
+    text-align: center;
   }
 `;

@@ -5,6 +5,10 @@ interface CardContainerProps {
 }
 
 export const CardContainer = styled.div<CardContainerProps>`
+  :hover {
+    color: white;
+  }
+
   @media (max-width: 768px) {
     flex-direction: column;
   }
@@ -36,12 +40,8 @@ export const CardContainer = styled.div<CardContainerProps>`
   }
 
   img:hover {
-    box-shadow: 0px 0.5px 4px 1px ${(props) => props.theme["neutral-2"]};
-
     filter: grayscale(0);
-
     transform: scale(1.02);
-    
   }
 `;
 
