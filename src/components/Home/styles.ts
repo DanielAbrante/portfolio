@@ -82,6 +82,6 @@ export const HomeTitle = styled.div`
     text-align: center;
     line-height: 5.25rem;
 
-    padding: 0 6.5rem;
+    padding-inline: 3rem;
   }
 `;

@@ -11,11 +11,11 @@ export function Work() {
       </h2>
 
       <section>
-        {projects.map((project) => {
-          if (project.id % 2 === 0) {
-            return <Card key={project.id} project={project} />;
+        {projects.map((project, index) => {
+          if (index % 2 === 0) {
+            return <Card key={index} project={project} />;
           } else {
-            return <Card key={project.id} project={project} flip />;
+            return <Card key={index} project={project} flip />;
           }
         })}
       </section>
