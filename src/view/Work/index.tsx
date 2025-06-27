@@ -1,6 +1,6 @@
-import { projects } from "../../data";
+import { works } from "../../data";
 
-import { Card } from "../Card";
+import { Card } from "../../components/Card";
 import { WorkContainer } from "./styles";
 
 export function Work() {
@@ -11,11 +11,11 @@ export function Work() {
       </h2>
 
       <section>
-        {projects.map((project, index) => {
+        {works.map((work, index) => {
           if (index % 2 === 0) {
-            return <Card key={index} project={project} />;
+            return <Card key={index} work={work} />;
           } else {
-            return <Card key={index} project={project} flip />;
+            return <Card key={index} work={work} flip />;
           }
         })}
       </section>

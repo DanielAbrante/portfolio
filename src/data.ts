@@ -1,45 +1,24 @@
-import RocketNotes from "./assets/works/rocketnotes.png";
-import Feed from "./assets/works/feed.png";
-import TributePage from "./assets/works/tribute-page.png";
-import AthenaEnv from "./assets/works/athena-env.png"
-import CalculatorApp from "./assets/works/calculator-app.png"
+import AthenaEnvBG from "./assets/works/athena-env-bg.png"
+import BlizzardBG from "./assets/works/blizzard-bg.png"
 
-export interface ProjectProps {
+export interface Work {
   title: string;
   description: string;
   link: string;
   img: string;
 }
 
-export const projects: ProjectProps[] = [
+export const works: Work[] = [
   {
-    title: "AthenaEnv Website",
-    description: "AthenaEnv documentation",
-    img: AthenaEnv,
+    title: "BR Challenge Blizzard",
+    description: "Landing page dinâmica para jogos da Blizzard",
+    img: BlizzardBG,
+    link: "https://br-challenges-blizzard-blond.vercel.app/",
+  },
+  {
+    title: "AthenaEnv",
+    description: "Documentação do ambiente de criar jogos com JS para o PS2",
+    img: AthenaEnvBG,
     link: "https://athena-env.vercel.app/",
-  },
-  {
-    title: "Calculator app",
-    description: "A cute calculator app",
-    img: CalculatorApp,
-    link: "https://calculator-app-iota-one.vercel.app/",
-  },
-  {
-    title: "Tribute Page",
-    description: "Biography about Dr. Norman Borlaug ",
-    img: TributePage,
-    link: "https://danielabrante.github.io/tribute-page/",
-  },
-  {
-    title: "Rocketnotes",
-    description: "A app to manage your notes",
-    img: RocketNotes,
-    link: "https://rocket-notes-one.vercel.app/",
-  },
-  {
-    title: "Feed",
-    description: "Social media comment section",
-    img: Feed,
-    link: "https://feed-snowy-ten.vercel.app/",
   },
 ];
