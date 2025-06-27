@@ -1,7 +1,6 @@
 import RocketNotes from "./assets/works/rocketnotes.png";
 import Feed from "./assets/works/feed.png";
 import TributePage from "./assets/works/tribute-page.png";
-import TodoApp from "./assets/works/todo-app.png";
 import AthenaEnv from "./assets/works/athena-env.png"
 import CalculatorApp from "./assets/works/calculator-app.png"
 

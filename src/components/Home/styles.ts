@@ -7,6 +7,10 @@ export const HomeContainer = styled.div`
   a {
     margin: 0 auto;
   }
+
+  > div:last-child {
+    margin: 0 auto;
+  }
 `;
 
 export const Header = styled.div`
@@ -85,3 +89,20 @@ export const HomeTitle = styled.div`
     padding-inline: 3rem;
   }
 `;
+
+export const CaretContainer = styled.div`
+    animation: pulse_down 2s ease-out infinite;
+
+  @keyframes pulse_down {
+    0% {
+      opacity: 0;
+      transform: translateY(0);
+    }
+    50% {
+      opacity: 100;
+    }
+    100% {
+      transform: translateY(24px);
+    }
+  }
+`

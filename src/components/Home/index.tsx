@@ -1,5 +1,5 @@
 import { CaretDown } from "phosphor-react";
-import { Header, HomeContainer, HomeTitle } from "./styles";
+import { Header, HomeContainer, HomeTitle, CaretContainer } from "./styles";
 
 export function Home() {
   return (
@@ -25,14 +25,17 @@ export function Home() {
 
       <HomeTitle>
         <h1>
-          I'm <strong>Frontend Developer</strong> that <br />
-          build <strong>Web Applications</strong> and <strong>Websites.</strong>
+          <strong>Web Applications</strong> crafted by a <br />
+          <strong>Frontend Developer</strong> to meet your <br />
+          <strong>Unique Needs</strong>
         </h1>
       </HomeTitle>
 
-      <a href="#work">
-        <CaretDown size={40} />
-      </a>
+      <CaretContainer>
+        <a href="#work">
+          <CaretDown size={40} />
+        </a>
+      </CaretContainer>
     </HomeContainer>
   );
 }
