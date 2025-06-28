@@ -1,7 +1,7 @@
 import { CaretRight } from "phosphor-react";
 import { CardButton, CardContainer, CardDetails } from "./styles";
 
-import { Work } from "../../data";
+import { Work } from "../../view/Work/data";
 
 interface CardProps {
   work: Work;

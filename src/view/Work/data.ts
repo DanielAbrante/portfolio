@@ -1,5 +1,5 @@
-import AthenaEnvBG from "./assets/works/athena-env-bg.png"
-import BlizzardBG from "./assets/works/blizzard-bg.png"
+import AthenaEnvBG from "../../assets/works/athena-env-bg.webp"
+import BlizzardBG from "../../assets/works/blizzard-bg.webp"
 
 export interface Work {
   title: string;

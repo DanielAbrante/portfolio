@@ -1,4 +1,4 @@
-import { works } from "../../data";
+import { works } from "./data";
 
 import { Card } from "../../components/Card";
 import { WorkContainer } from "./styles";
