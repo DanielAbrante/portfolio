@@ -18,6 +18,12 @@ export const CardContainer = styled.div<CardContainerProps>`
   gap: 2rem;
   max-width: 1220px;
 
+  filter: grayscale(1);
+  
+  :hover {
+    filter: grayscale(0);
+  }
+
   div {
     @media (max-width: 768px) {
       width: 100%;
@@ -35,13 +41,11 @@ export const CardContainer = styled.div<CardContainerProps>`
     object-fit: cover;
 
     cursor: pointer;
-    filter: grayscale(1);
-    transition: transform 0.3s ease; /* Suaviza o zoom */
+    transition: transform 0.3s ease;
   }
 
   img:hover {
-    filter: grayscale(0);
-    transform: scale(1.02);
+    transform: scale(1.05);
   }
 `;
 
