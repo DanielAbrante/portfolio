@@ -11,13 +11,13 @@ export interface Work {
 export const works: Work[] = [
   {
     title: "BR Challenge Blizzard",
-    description: "Landing page dinâmica para jogos da Blizzard",
+    description: "Dynamic landing page",
     img: BlizzardBG,
     link: "https://br-challenges-blizzard-blond.vercel.app/",
   },
   {
     title: "AthenaEnv",
-    description: "Documentação do ambiente de criar jogos com JS para o PS2",
+    description: "Fanmade documentation",
     img: AthenaEnvBG,
     link: "https://athena-env.vercel.app/",
   },
