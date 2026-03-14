@@ -1,28 +1,30 @@
-import { CaretRight } from "phosphor-react";
+import type { Work } from "../../view/Personal/data";
 import { CardButton, CardContainer, CardDetails } from "./styles";
 
-import { Work } from "../../view/Work/data";
-
 interface CardProps {
-  work: Work;
-  flip?: boolean;
+	work: Work;
+	flip?: boolean;
 }
 
 export function Card({ flip = false, work }: CardProps) {
-  return (
-    <CardContainer flip={flip}>
-      <div>
-        <a target="_blank" href={work.link}><img src={work.img} alt={work.title} /></a>
-      </div>
+	return (
+		<CardContainer flip={flip}>
+			<div>
+				<a target="_blank" href={work.link}>
+					<img src={work.img} alt={work.title} />
+				</a>
+			</div>
 
-      <CardDetails>
-        <h5>{work.title}</h5>
-        <h3>{work.description}</h3>
+			<CardDetails>
+				<h3>{work.title}</h3>
+				<h5>{work.description}</h5>
 
-        <CardButton>
-          <a target="_blank" href={work.link}>VIEW WORK <CaretRight size={24} /></a>
-        </CardButton>
-      </CardDetails>
-    </CardContainer>
-  );
+				<CardButton>
+					<a target="_blank" href={work.link}>
+						VIEW WORK
+					</a>
+				</CardButton>
+			</CardDetails>
+		</CardContainer>
+	);
 }

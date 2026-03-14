@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 interface CardContainerProps {
-  flip: boolean;
+	flip: boolean;
 }
 
 export const CardContainer = styled.div<CardContainerProps>`
@@ -18,8 +18,6 @@ export const CardContainer = styled.div<CardContainerProps>`
   gap: 2rem;
   max-width: 1220px;
 
-  filter: grayscale(1);
-  
   :hover {
     filter: grayscale(0);
   }
@@ -61,14 +59,13 @@ export const CardDetails = styled.div`
     }
 
     font-size: 2rem;
-    font-weight: 300;
     line-height: 3rem;
   }
 
   h5 {
     font-size: 1rem;
-    font-weight: 600;
     line-height: 24px;
+    font-weight: 300;
     letter-spacing: 0.04em;
   }
 

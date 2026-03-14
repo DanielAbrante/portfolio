@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const FooterContainer = styled.footer`
+export const Contact = styled.footer`
   display: flex;
   flex-direction: column;
   justify-content: center;

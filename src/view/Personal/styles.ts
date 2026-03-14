@@ -1,14 +1,12 @@
 import styled from "styled-components";
 
-export const WorkContainer = styled.main`
+export const Personal = styled.main`
   display: flex;
   flex-direction: column;
-
-  margin: 5rem 0 7.5rem;
-
+  margin-bottom: 4rem;
+  
   h2 {
-    margin-bottom: 6rem;
-    margin-top: 5rem;
+    margin-bottom: 2rem;
   }
 
   > section {
